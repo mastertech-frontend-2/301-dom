@@ -18,3 +18,19 @@ const listaDeDivs = document.querySelectorAll('div');
 for (const div of listaDeDivs) {
   div.innerHTML = 'lalala';
 }
+
+//.classList retorna a lista de classes do objeto que se está manipulando
+console.log(divCentral.classList);
+
+//.classList.add adiciona uma classe nova ao objeto que se está manipulando
+divCentral.classList.add('teste');
+
+//.classList.remove remove uma classe no objeto que se está manipulando
+divCentral.classList.remove('azul');
+
+//.classList.contains retorna true se o objeto tiver a classe, ou false se não
+console.log(divCentral.classList.contains('azul'));
+
+//.classList.toogle adiciona uma classe caso o objeto não a tenha, ou remove caso tenha
+divCentral.classList.toggle('azul');
+divCentral.classList.toggle('azul');
