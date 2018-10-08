@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background-color: lightgray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+
+  background-color: red;
+
+  border: 2px solid black;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.grande {
+  width: 300px;
+  height: 300px;
+}
+
+#central {
+  border: 5px solid orange;
+}
