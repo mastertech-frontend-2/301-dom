@@ -12,3 +12,9 @@ console.log(divCentral.id);
 
 //.innerHTML retorna todo o conteúdo que existe entre a abertura e o fechamento de uma tag, ou uma string vazia caso não haja conteúdo
 console.log(divCentral.innerHTML);
+
+const listaDeDivs = document.querySelectorAll('div');
+
+for (const div of listaDeDivs) {
+  div.innerHTML = 'lalala';
+}
